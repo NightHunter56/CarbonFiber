@@ -8,14 +8,16 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class CarbonFiber implements ModInitializer {
-
+    //Items
     public static final Item CARBON_INGOT = new Item(new FabricItemSettings().group(ItemGroup.MISC));
-        
+    //Blocks
 
     @Override
     public void onInitialize() {
+        //ItemsRegister
+        Registry.register(Registry.ITEM, new Identifier("carbon", "carbon_ingot"), CARBON_INGOT);
+        //BlocksRegister
 
-        Registry.register(Registry.ITEM, new Identifier("carbonfiber", "carbon_ingot"), CARBON_INGOT);
-
+        //BlockItemRegisters
     }
 }
