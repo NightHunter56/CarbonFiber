@@ -1,2 +1,2 @@
 # CarbonFiber
- A Minecraft Fabric Mod That Adds Carbon Fiber
+ A Minecraft Fabric Mod That Adds Carbon
