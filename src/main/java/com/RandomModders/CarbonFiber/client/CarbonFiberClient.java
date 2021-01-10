@@ -9,7 +9,7 @@ public class CarbonFiberClient implements ClientModInitializer {
 
 
 
-    
+
     @Override
     public void onInitializeClient() {
 
