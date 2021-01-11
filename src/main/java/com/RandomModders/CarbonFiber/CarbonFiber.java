@@ -1,5 +1,6 @@
 package com.RandomModders.CarbonFiber;
 
+import com.RandomModders.CarbonFiber.Items.CarbonIngot;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -13,7 +14,7 @@ import net.minecraft.util.registry.Registry;
 
 public class CarbonFiber implements ModInitializer {
     //Items
-    public static final Item CARBON_INGOT = new Item(new FabricItemSettings().group(ItemGroup.MISC));
+    public static final Item CARBON_INGOT = new CarbonIngot();
     //Blocks
     public static final Block CARBON_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).hardness(4.0f));
 
