@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "carbon",
+  "id": "carbonfiber",
   "version": "${version}",
   "name": "CarbonFiber",
   "description": "A Mod That Adds CarbonFiber",

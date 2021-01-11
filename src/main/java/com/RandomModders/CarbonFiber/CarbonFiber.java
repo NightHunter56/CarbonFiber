@@ -20,10 +20,10 @@ public class CarbonFiber implements ModInitializer {
     @Override
     public void onInitialize() {
         //ItemsRegister
-        Registry.register(Registry.ITEM, new Identifier("carbon", "carbon_ingot"), CARBON_INGOT);
+        Registry.register(Registry.ITEM, new Identifier("carbonfiber", "carbon_ingot"), CARBON_INGOT);
         //BlocksRegister
-        Registry.register(Registry.BLOCK, new Identifier("carbon", "carbon_block"), CARBON_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier("carbonfiber", "carbon_block"), CARBON_BLOCK);
         //BlockItemRegisters
-        Registry.register(Registry.ITEM, new Identifier("tutorial", "carbon_block"), new BlockItem(CARBON_BLOCK, new Item.Settings().group(ItemGroup.MISC)));
+        Registry.register(Registry.ITEM, new Identifier("carbonfiber", "carbon_block"), new BlockItem(CARBON_BLOCK, new Item.Settings().group(ItemGroup.MISC)));
     }
 }
