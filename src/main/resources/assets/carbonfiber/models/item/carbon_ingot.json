@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "carbon:item/carbon_ingot"
+    "layer0": "carbonfiber:item/carbon_ingot"
   }
 }
