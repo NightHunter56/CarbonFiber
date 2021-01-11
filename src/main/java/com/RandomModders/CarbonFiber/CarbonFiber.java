@@ -1,5 +1,6 @@
 package com.RandomModders.CarbonFiber;
 
+import com.RandomModders.CarbonFiber.Blocks.CarbonBlock;
 import com.RandomModders.CarbonFiber.Items.CarbonIngot;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -16,7 +17,7 @@ public class CarbonFiber implements ModInitializer {
     //Items
     public static final Item CARBON_INGOT = new CarbonIngot();
     //Blocks
-    public static final Block CARBON_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).hardness(4.0f));
+    public static final Block CARBON_BLOCK = new CarbonBlock();
 
     @Override
     public void onInitialize() {
