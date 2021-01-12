@@ -10,7 +10,7 @@ public class CarbonBlock extends Block {
 
     public CarbonBlock() {
         super(FabricBlockSettings.of(Material.METAL)
-                .hardness(4.0f)
+                .hardness(3.0f)
                 .requiresTool()
                 .breakByTool(FabricToolTags.PICKAXES,4));
     }
