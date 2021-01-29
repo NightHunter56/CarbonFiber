@@ -16,7 +16,7 @@ public class BlockHandler {
         //Register
         Registry.register(Registry.BLOCK, new Identifier("carbonfiber", "carbon_block"), CARBON_BLOCK);
         //ItemRegister
-        Registry.register(Registry.ITEM, new Identifier("carbonfiber", "carbon_block"), new BlockItem(CARBON_BLOCK, new Item.Settings().group(ItemGroup.MISC)));
+        Registry.register(Registry.ITEM, new Identifier("carbonfiber", "carbon_block"), new BlockItem(CARBON_BLOCK, new Item.Settings().group(ItemGroup.MISC).fireproof()));
 
     }
 
