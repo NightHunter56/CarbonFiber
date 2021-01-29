@@ -5,7 +5,6 @@ import com.RandomModders.CarbonFiber.Items.ItemHandler;
 import net.fabricmc.api.ModInitializer;
 
 public class CarbonFiber implements ModInitializer {
-    //Blocks
 
 
     @Override
